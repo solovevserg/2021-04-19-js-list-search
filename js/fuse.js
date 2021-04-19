@@ -26,6 +26,9 @@ function filterStudents(query) {
     const studentsList = document.querySelector('#students-list')
     const lis = new Array(...studentsList.children); 
 
+    // Юзаем либу 
+    // https://fusejs.io/demo.html
+    
     const options = {
         threshold: 0.5,
         keys: [
