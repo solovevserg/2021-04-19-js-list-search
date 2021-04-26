@@ -3,6 +3,7 @@ html, body {
     margin: 0;
     background-size: cover;
     box-sizing: border-box;
+    color: white;
 }
 
 body {
